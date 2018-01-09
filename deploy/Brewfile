@@ -17,6 +17,7 @@ brew "node"
 # Tools
 cask "lastpass"
 brew "ack"
+brew "git-flow"
 
 # Browsers
 cask "google-chrome"
