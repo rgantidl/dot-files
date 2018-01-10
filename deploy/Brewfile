@@ -18,9 +18,14 @@ brew "node"
 cask "lastpass"
 brew "ack"
 brew "git-flow"
+cask "vlc"
 
 # Browsers
 cask "google-chrome"
 cask "firefox"
 cask "torbrowser"
+
+# Cloud CLI
+cask "google-cloud-sdk"
+brew "awscli"
 
