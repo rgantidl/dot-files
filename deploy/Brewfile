@@ -29,3 +29,6 @@ cask "torbrowser"
 cask "google-cloud-sdk"
 brew "awscli"
 
+# Database
+brew "postgresql"
+brew "mysql"
