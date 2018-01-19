@@ -18,6 +18,7 @@ brew "node"
 cask "lastpass"
 brew "ack"
 brew "git-flow"
+brew "p7zip"
 
 # Browsers
 cask "google-chrome"
