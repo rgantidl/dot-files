@@ -19,6 +19,7 @@ cask "lastpass"
 brew "ack"
 brew "git-flow"
 brew "p7zip"
+brew "wget"
 
 # Browsers
 cask "google-chrome"
