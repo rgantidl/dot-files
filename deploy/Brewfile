@@ -39,5 +39,5 @@ brew "postgresql"
 # Cloud
 cask "google-cloud-sdk"
 brew "firebase-cli"
-# cask "aws-sdk"
+# cask "awscli"
 
