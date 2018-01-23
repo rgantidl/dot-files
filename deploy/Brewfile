@@ -32,3 +32,6 @@ brew "awscli"
 # Database
 brew "postgresql"
 brew "mysql"
+
+# Optional
+cask "slack"
