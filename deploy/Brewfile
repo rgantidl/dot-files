@@ -15,12 +15,29 @@ brew "python3"
 brew "node"
 
 # Tools
+cask "flux"
+
+# Paid Tools
 cask "lastpass"
+
+# Command Line Tools
 brew "ack"
 brew "git-flow"
+brew "p7zip"
+brew "wget"
 
 # Browsers
 cask "google-chrome"
 cask "firefox"
 cask "torbrowser"
+
+# Databases
+# brew "rethinkdb"
+# brew "mongodb"
+brew "postgresql"
+
+# Cloud
+cask "google-cloud-sdk"
+brew "firebase-cli"
+# cask "awscli"
 
