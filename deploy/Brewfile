@@ -25,19 +25,26 @@ brew "ack"
 brew "git-flow"
 brew "p7zip"
 brew "wget"
+cask "vlc"
+cask "meld"
+brew "pre-commit"
 
 # Browsers
 cask "google-chrome"
 cask "firefox"
 cask "torbrowser"
 
-# Databases
+# Cloud CLI
+cask "google-cloud-sdk"
+brew "firebase-cli"
+brew "awscli"
+
+# Database
 # brew "rethinkdb"
 # brew "mongodb"
 brew "postgresql"
+brew "mysql"
+cask "dbeaver-community"
 
-# Cloud
-cask "google-cloud-sdk"
-brew "firebase-cli"
-# cask "awscli"
-
+# Optional
+cask "slack"
