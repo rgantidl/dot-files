@@ -19,6 +19,8 @@ cask "lastpass"
 brew "ack"
 brew "git-flow"
 cask "vlc"
+cask "meld"
+brew "pre-commit"
 
 # Browsers
 cask "google-chrome"
@@ -32,6 +34,7 @@ brew "awscli"
 # Database
 brew "postgresql"
 brew "mysql"
+cask "dbeaver-community"
 
 # Optional
 cask "slack"
