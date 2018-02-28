@@ -29,6 +29,7 @@ brew "pre-commit"
 cask "flux"
 brew "tmux"
 brew "unrar"
+brew "exa"
 
 
 # Browsers
