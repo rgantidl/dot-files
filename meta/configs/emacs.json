@@ -1,0 +1,17 @@
+[
+  {
+    "defaults": {
+      "link": {
+        "create": true,
+        "relink": true,
+        "force": true
+      }
+    }
+  },
+  {
+    "link": {
+      "~/.spacemacs": "editors/emacs/spacemacs",
+      "~/bin/edit": "editors/emacs/bin/edit"
+    }
+  }
+]
