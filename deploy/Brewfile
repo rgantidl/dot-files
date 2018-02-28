@@ -19,6 +19,7 @@ brew "curl"
 brew "wget"
 brew "ack"
 brew "git-flow"
+brew "p7zip"
 cask "vlc"
 cask "meld"
 brew "pre-commit"
@@ -32,6 +33,7 @@ cask "torbrowser"
 # Cloud CLI
 cask "google-cloud-sdk"
 brew "awscli"
+brew "firebase-cli"
 
 # Database
 brew "postgresql"
