@@ -1,8 +1,11 @@
+tap "homebrew/core"
+tap "homebrew/bundle"
 tap "caskroom/cask"
 
 # Editors
 cask "visual-studio-code"
 cask "sublime-text"
+cask "pycharm"
 
 # Terminal
 cask "iterm2"
@@ -24,6 +27,9 @@ cask "vlc"
 cask "meld"
 brew "pre-commit"
 cask "flux"
+brew "tmux"
+brew "unrar"
+
 
 # Browsers
 cask "google-chrome"
