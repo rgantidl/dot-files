@@ -1,6 +1,3 @@
-[user]
-	email = rganti@datalicious.com
-	name = Ramjee Ganti
 [core]
 	excludesfile = ~/.gitignore_global
 	editor = /usr/bin/nvim
