@@ -15,12 +15,14 @@ brew "python3"
 brew "node"
 
 # Tools
-cask "lastpass"
+brew "curl"
+brew "wget"
 brew "ack"
 brew "git-flow"
 cask "vlc"
 cask "meld"
 brew "pre-commit"
+cask "flux"
 
 # Browsers
 cask "google-chrome"
@@ -38,3 +40,4 @@ cask "dbeaver-community"
 
 # Optional
 cask "slack"
+cask "lastpass"
