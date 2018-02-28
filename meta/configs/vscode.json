@@ -1,0 +1,17 @@
+[
+  {
+    "defaults": {
+      "link": {
+        "create": true,
+        "relink": true,
+        "force": true
+      }
+    }
+  },
+  {
+    "link": {
+      "~/Library/Application Support/Code/User/keybindings.json": "editors/vscode/keybindings.json",
+      "~/Library/Application Support/Code/User/settings.json": "editors/vscode/settings.json"
+    }
+  }
+]
