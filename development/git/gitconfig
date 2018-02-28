@@ -1,0 +1,114 @@
+[user]
+	email = rganti@datalicious.com
+	name = Ramjee Ganti
+[core]
+	excludesfile = ~/.gitignore_global
+	editor = /usr/bin/vim
+
+[credential]
+	helper = "netrc -f ~/.netrc.asc -v"
+
+[push]
+	default = current
+
+[hub]
+protocol = https
+
+[alias]
+  s = status
+  st = status
+  stu = status --untracked-files=no
+
+  ci = commit
+  cim = commit --message
+  cima = commit --all --message
+  type = cat-file -t
+  dump = cat-file -p
+
+  # Correcting commits
+  amend = commit --amend --no-edit
+  reword = commit --amend --message
+  undo = reset HEAD~1
+  rh = reset --hard
+
+  # index related commands
+  a = add
+  aa = add --all
+  unstage = reset HEAD
+
+  # git branch and remote
+  co = checkout
+  br = branch
+  b = branch
+  brs = branch --all --verbose
+
+  # git remote
+  rv = remote --verbose
+
+  # git diff
+  d = diff
+  df = diff
+  dc = diff --staged
+  preview = diff --staged
+  dt = difftool
+
+  # merges
+  mt = mergetool
+  unresolve = checkout --conflict=merge
+
+  # git log
+  ll = log
+  l = log --oneline --max-count=15
+  ld = log --oneline --max-count=15 --decorate
+  gl = log --graph --oneline --decorate --branches --all
+  glog = log --graph --oneline --decorate --branches --all
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  who = log --date=relative --pretty='format:%C(yellow)%h%Creset %C(bold blue)%an%Creset %C(bold green)%cr%Creset %s'
+  wdw = log --date=relative --pretty='format:%C(yellow)%h%Creset %C(bold blue)%an%Creset %C(bold green)%cr%Creset %s'
+  most-changed = !git log --format=%n --name-only | grep -v '^$' | sort | uniq -c | sort --numeric-sort --reverse | head -n 50
+
+  # clean
+  cleanf = clean -xdf
+
+# so much color
+[color]
+	ui = auto
+[color "diff"]
+	meta = yellow bold
+	commit = green bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = "red bold 52"
+	newNormal = "green bold"
+	newHighlight = "green bold 22"
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
+
+
+# correct typos
+[help]
+	autocorrect = 1
+
+# push easily. http://stackoverflow.com/a/23918418/89484
+[push]
+	default = current
+	followTags = true
+
+[fetch]
+	prune = true
+[gui]
+	pruneDuringFetch = true
+[stash]
+	showPatch = true
+[log]
+	date = relative
