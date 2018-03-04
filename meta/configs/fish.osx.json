@@ -40,7 +40,8 @@
   },
   {
     "shell": [
-      ["fish -c 'fisher and fisher up'", "Installing fisher plugins"]
+      ["fish -c 'fisher and fisher up'", "Installing fisher plugins"],
+      ["echo '/usr/local/bin/fish' | sudo tee -a /etc/shells;chsh -s `which fish`", "Setting fish as default shell"]
     ]
   },
   {
