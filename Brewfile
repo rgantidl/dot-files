@@ -44,6 +44,8 @@ cask "google-cloud-sdk"
 # brew "firebase-cli"
 
 # Database
+# brew "rethinkdb"
+# brew "mongodb"
 # brew "postgresql"
 # brew "mysql"
 cask "dbeaver-community"
