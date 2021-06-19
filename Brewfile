@@ -4,9 +4,8 @@ tap "caskroom/cask"
 
 # Editors
 cask "visual-studio-code"
-cask "sublime-text"
+# cask "sublime-text"
 cask "pycharm"
-brew "neovim", args: ["HEAD"]
 
 # Terminal
 cask "iterm2"
@@ -15,8 +14,12 @@ cask "iterm2"
 brew "fish"
 
 # Languages
-brew "python3"
-brew "node"
+# brew "python3"
+# brew "node"
+# brew "go"
+brew "pyenv"
+brew "pyenv-virtualenv"
+
 
 # Tools
 brew "curl"
@@ -27,7 +30,7 @@ brew "p7zip"
 # cask "vlc"
 cask "meld"
 brew "pre-commit"
-cask "flux"
+# cask "flux"
 brew "tmux"
 brew "unrar"
 brew "exa"
@@ -35,11 +38,12 @@ brew "exa"
 
 # Browsers
 # cask "google-chrome"
-# cask "firefox"
+cask "firefox"
+cask  "brave-browser"
 # cask "torbrowser"
 
 # Cloud CLI
-cask "google-cloud-sdk"
+# cask "google-cloud-sdk"
 # brew "awscli"
 # brew "firebase-cli"
 
@@ -48,8 +52,8 @@ cask "google-cloud-sdk"
 # brew "mongodb"
 # brew "postgresql"
 # brew "mysql"
-cask "dbeaver-community"
+# cask "dbeaver-community"
 
 # Optional
-# cask "slack"
+cask "slack"
 # cask "lastpass"
